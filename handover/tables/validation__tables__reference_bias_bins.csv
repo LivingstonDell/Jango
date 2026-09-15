@@ -1,0 +1,7 @@
+reference_bias_bin,expected_delta_dg_from_bias_bin,backend,backend_label
+low bias,4.841999999999999,esm,ESM
+mid bias,9.6605,esm,ESM
+high bias,11.546,esm,ESM
+low bias,6.596,opendde,OpenDDE
+mid bias,9.786499999999998,opendde,OpenDDE
+high bias,11.047999999999998,opendde,OpenDDE

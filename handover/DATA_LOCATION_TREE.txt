@@ -1,0 +1,117 @@
+Jango canonical location tree
+============================
+
+Source of truth on <SLURM_NODE>
+-------------------------
+
+<JANGO_REPO>
+|-- README.md, docs/, configs/, scripts/, src/, tests/
+|   |-- Jango code, command-line entry points, configs, and tests
+|
+|-- data
+|   |-- mpnn
+|   |   |-- hotspot_only
+|   |   |-- interface_only
+|   |   `-- full_antigen
+|   |       `-- ProteinMPNN sequence outputs and sequence manifests
+|   |
+|   |-- folds
+|   |   |-- esmfold2
+|   |   |   |-- hotspot_only
+|   |   |   `-- interface_only
+|   |   |
+|   |   `-- opendde
+|   |       |-- hotspot_only
+|   |       `-- interface_only
+|   |       `-- Folded antigen outputs, top-1 fold products, and provenance
+|   |
+|   |-- relaxed
+|   |   |-- esmfold2_hotspot_top1
+|   |   |-- esmfold2_interface_only
+|   |   |-- esmfold2_native_refold
+|   |   |-- opendde_hotspot_top1
+|   |   |-- opendde_interface_only
+|   |   `-- opendde_native_refold
+|   |       `-- Relaxed grafted decoys and relaxed native-refold complexes
+|   |
+|   |-- outputs
+|   |   `-- evaluation
+|   |       |-- decoys
+|   |       |   |-- figures
+|   |       |   `-- tables
+|   |       |
+|   |       `-- validation
+|   |           |-- figures
+|   |           `-- tables
+|   |           `-- Compact report-facing package
+|   |
+|   |-- msa
+|   |   `-- MSA cache root used by Jango/AbForge helper
+|   |
+|   |-- msa_cache
+|   |   `-- compatibility/cache layer retained for existing workflows
+|   |
+|   `-- tarballs
+|       `-- archived input/output bundles when present
+|
+`-- handover
+    |-- README.md
+    |-- FULL_SOP.md
+    |-- DATA_LOCATION_TREE.txt
+    |-- LOCATION_MAP.md
+    |-- DATASET_MANIFESTS.md
+    |-- REPRODUCE_FIGURES.md
+    |-- VALIDATION_CHECKLIST.md
+    |
+    |-- figures
+    |   `-- Flat copy of the final 25 report figures
+    |
+    |-- tables
+    |   `-- Compact CSVs required for figure/report audit
+    |
+    |-- source
+    |   `-- reference_benchmark
+    |       |-- source_tables
+    |       `-- preview
+    |       `-- Bundled source tables for figure reproduction
+    |
+    |-- commands
+    |   |-- validate_handover.sh
+    |   |-- publish_evaluation_package.sh
+    |   |-- generate_reference_benchmark.sh
+    |   `-- generate_mutation_profile.sh
+    |
+    |-- maps
+    |   |-- location_map.csv
+    |   `-- figure_role_map.csv
+    |
+    `-- checksums
+        |-- figure_inventory.csv
+        |-- table_inventory.csv
+        `-- package_inventory.csv
+
+
+Scratch/provenance area, not canonical
+--------------------------------------
+
+<JANGO_USER_ROOT>
+|-- large raw ESM run workspace
+|   `-- raw folding provenance; not called by canonical Jango
+|
+|-- work
+|   `-- active or historical job work roots
+|
+|-- cache
+|   `-- user/runtime caches
+|
+`-- tmp, outputs, archive
+    `-- disposable unless explicitly promoted into <JANGO_REPO>
+
+
+Local convenience mirror
+------------------------
+
+<LOCAL_JANGO_COPY>
+`-- local copies of figures/handover material for viewing and presentation
+
+The shared <SLURM_NODE> repo is the source of truth; the local mirror is not used by Slurm jobs.

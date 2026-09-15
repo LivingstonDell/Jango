@@ -1,0 +1,49 @@
+redesign_mode,backend,feature,feature_label,group,n_pairs,unit,n,p05,q1,median,q3,p95,mean,min,max
+hotspot,esmfold2,dG_separated,Rosetta dG separated,native_refold,704,REU,704,-60.06185,-46.712500000000006,-39.2355,-28.832,-16.197049999999997,-38.32409517045455,-80.328,0.076
+hotspot,esmfold2,dG_separated,Rosetta dG separated,decoy,704,REU,704,-47.40085,-36.3365,-29.0205,-22.56675,-12.86174999999999,-29.082207386363635,-63.687,220.727
+hotspot,esmfold2,dG_separated/dSASAx100,dG/dSASA x100,native_refold,704,REU/A2 x100,704,-3.71525,-3.1305,-2.6879999999999997,-2.206,-1.5181499999999999,-2.6538508522727273,-4.689,1.845
+hotspot,esmfold2,dG_separated/dSASAx100,dG/dSASA x100,decoy,704,REU/A2 x100,704,-3.17725,-2.5909999999999997,-2.195,-1.806,-1.2624499999999999,-2.173403409090909,-3.717,10.626
+hotspot,esmfold2,dSASA_int,Buried interface area,native_refold,704,A2,704,896.2668,1224.8915000000002,1387.1045,1626.41625,2076.95095,1421.0071732954545,0.0,3344.655
+hotspot,esmfold2,dSASA_int,Buried interface area,decoy,704,A2,704,867.1453,1111.47425,1294.917,1521.58975,1952.5827000000002,1335.343384943182,0.0,2742.667
+hotspot,esmfold2,sc_value,Shape complementarity,native_refold,704,,704,0.46815,0.582,0.647,0.698,0.75885,0.6309034090909091,0.0,0.811
+hotspot,esmfold2,sc_value,Shape complementarity,decoy,704,,704,0.42615,0.526,0.5925,0.649,0.7237,0.5842769886363637,0.0,0.805
+hotspot,esmfold2,hbonds_int,Interface H-bonds,native_refold,704,count,704,2.0,5.0,7.0,8.0,12.0,6.642045454545454,0.0,16.0
+hotspot,esmfold2,hbonds_int,Interface H-bonds,decoy,704,count,704,1.0,3.0,5.0,7.0,10.0,4.845170454545454,0.0,14.0
+hotspot,esmfold2,delta_unsatHbonds,Unsat H-bonds,native_refold,704,count,704,1.0,5.0,9.0,12.0,19.0,9.254261363636363,0.0,35.0
+hotspot,esmfold2,delta_unsatHbonds,Unsat H-bonds,decoy,704,count,704,2.0,6.0,9.0,13.0,19.0,9.684659090909092,0.0,47.0
+interface,esmfold2,dG_separated,Rosetta dG separated,native_refold,704,REU,704,-60.06185,-46.712500000000006,-39.2355,-28.832,-16.197049999999997,-38.32409517045455,-80.328,0.076
+interface,esmfold2,dG_separated,Rosetta dG separated,decoy,704,REU,704,-43.043800000000005,-32.6395,-26.9255,-21.142500000000002,-11.83105,-26.90156960227273,-70.509,179.254
+interface,esmfold2,dG_separated/dSASAx100,dG/dSASA x100,native_refold,704,REU/A2 x100,704,-3.71525,-3.1305,-2.6879999999999997,-2.206,-1.5181499999999999,-2.6538508522727273,-4.689,1.845
+interface,esmfold2,dG_separated/dSASAx100,dG/dSASA x100,decoy,704,REU/A2 x100,704,-2.81295,-2.3845,-2.045,-1.7375,-1.2069499999999997,-2.029117897727273,-3.97,13.388
+interface,esmfold2,dSASA_int,Buried interface area,native_refold,704,A2,704,896.2668,1224.8915000000002,1387.1045,1626.41625,2076.95095,1421.0071732954545,0.0,3344.655
+interface,esmfold2,dSASA_int,Buried interface area,decoy,704,A2,704,859.9048,1107.9562500000002,1271.5904999999998,1499.29425,1905.0046,1317.7609005681818,0.0,3507.445
+interface,esmfold2,sc_value,Shape complementarity,native_refold,704,,704,0.46815,0.582,0.647,0.698,0.75885,0.6309034090909091,0.0,0.811
+interface,esmfold2,sc_value,Shape complementarity,decoy,704,,704,0.42515,0.51375,0.5805,0.628,0.711,0.5697045454545454,0.0,0.779
+interface,esmfold2,hbonds_int,Interface H-bonds,native_refold,704,count,704,2.0,5.0,7.0,8.0,12.0,6.642045454545454,0.0,16.0
+interface,esmfold2,hbonds_int,Interface H-bonds,decoy,704,count,704,1.0,3.0,4.0,6.0,9.0,4.589488636363637,0.0,16.0
+interface,esmfold2,delta_unsatHbonds,Unsat H-bonds,native_refold,704,count,704,1.0,5.0,9.0,12.0,19.0,9.254261363636363,0.0,35.0
+interface,esmfold2,delta_unsatHbonds,Unsat H-bonds,decoy,704,count,704,2.0,6.0,9.0,13.0,19.0,9.551136363636363,0.0,34.0
+hotspot,opendde,dG_separated,Rosetta dG separated,native_refold,705,REU,705,-58.9572,-47.303,-38.732,-30.427,-17.194800000000015,-37.63221418439717,-73.303,623.565
+hotspot,opendde,dG_separated,Rosetta dG separated,decoy,705,REU,705,-48.3494,-36.267,-28.984,-22.28,-12.108800000000002,-28.988485106382974,-60.892,234.969
+hotspot,opendde,dG_separated/dSASAx100,dG/dSASA x100,native_refold,705,REU/A2 x100,705,-3.7334,-3.182,-2.729,-2.287,-1.6652000000000002,-2.6791063829787234,-4.762,18.31
+hotspot,opendde,dG_separated/dSASAx100,dG/dSASA x100,decoy,705,REU/A2 x100,705,-3.1736,-2.558,-2.151,-1.772,-1.2784000000000002,-2.1643148936170213,-3.98,9.622
+hotspot,opendde,dSASA_int,Buried interface area,native_refold,705,A2,705,945.4961999999999,1224.482,1390.657,1590.21,1988.6696,1416.8542354609929,6.714,3405.518
+hotspot,opendde,dSASA_int,Buried interface area,decoy,705,A2,705,889.9254000000001,1120.757,1292.268,1512.587,1891.8668,1332.662124822695,64.12,2928.596
+hotspot,opendde,sc_value,Shape complementarity,native_refold,705,,705,0.48519999999999996,0.595,0.649,0.698,0.7597999999999999,0.637032624113475,0.0,0.844
+hotspot,opendde,sc_value,Shape complementarity,decoy,705,,705,0.43,0.529,0.588,0.653,0.7167999999999999,0.5840936170212767,0.03,0.804
+hotspot,opendde,hbonds_int,Interface H-bonds,native_refold,705,count,705,2.0,5.0,7.0,9.0,12.0,6.784397163120567,0.0,19.0
+hotspot,opendde,hbonds_int,Interface H-bonds,decoy,705,count,705,1.0,3.0,5.0,7.0,10.0,4.9560283687943265,0.0,14.0
+hotspot,opendde,delta_unsatHbonds,Unsat H-bonds,native_refold,705,count,705,2.0,5.0,8.0,12.0,19.0,9.009929078014185,0.0,55.0
+hotspot,opendde,delta_unsatHbonds,Unsat H-bonds,decoy,705,count,705,2.0,5.0,9.0,12.0,19.0,9.398581560283688,0.0,44.0
+interface,opendde,dG_separated,Rosetta dG separated,native_refold,705,REU,705,-58.9572,-47.303,-38.732,-30.427,-17.194800000000015,-37.63221418439717,-73.303,623.565
+interface,opendde,dG_separated,Rosetta dG separated,decoy,705,REU,705,-43.5022,-32.65,-26.281,-20.907,-11.691000000000011,-22.566181560283688,-64.037,2563.916
+interface,opendde,dG_separated/dSASAx100,dG/dSASA x100,native_refold,705,REU/A2 x100,705,-3.7334,-3.182,-2.729,-2.287,-1.6652000000000002,-2.6791063829787234,-4.762,18.31
+interface,opendde,dG_separated/dSASAx100,dG/dSASA x100,decoy,705,REU/A2 x100,705,-2.8654,-2.37,-2.035,-1.673,-1.2004000000000001,-1.8280595744680854,-3.953,110.95
+interface,opendde,dSASA_int,Buried interface area,native_refold,705,A2,705,945.4961999999999,1224.482,1390.657,1590.21,1988.6696,1416.8542354609929,6.714,3405.518
+interface,opendde,dSASA_int,Buried interface area,decoy,705,A2,705,894.987,1124.296,1281.48,1503.741,1909.2091999999989,1329.0475531914897,70.621,3196.961
+interface,opendde,sc_value,Shape complementarity,native_refold,705,,705,0.48519999999999996,0.595,0.649,0.698,0.7597999999999999,0.637032624113475,0.0,0.844
+interface,opendde,sc_value,Shape complementarity,decoy,705,,705,0.41419999999999996,0.521,0.58,0.633,0.7055999999999999,0.5726184397163121,0.223,0.779
+interface,opendde,hbonds_int,Interface H-bonds,native_refold,705,count,705,2.0,5.0,7.0,9.0,12.0,6.784397163120567,0.0,19.0
+interface,opendde,hbonds_int,Interface H-bonds,decoy,705,count,705,1.0,3.0,4.0,6.0,9.0,4.685106382978724,0.0,15.0
+interface,opendde,delta_unsatHbonds,Unsat H-bonds,native_refold,705,count,705,2.0,5.0,8.0,12.0,19.0,9.009929078014185,0.0,55.0
+interface,opendde,delta_unsatHbonds,Unsat H-bonds,decoy,705,count,705,3.0,6.0,9.0,13.0,18.799999999999955,9.791489361702128,0.0,59.0

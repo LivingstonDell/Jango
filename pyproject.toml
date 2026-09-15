@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jango"
+version = "0.1.0"
+description = "Jango orchestration with the NBIA scientific engine for DELPHI nanobody-antigen workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "biopython",
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+]
+
+[project.scripts]
+jango = "jango.cli:main"
+fett = "jango.pipeline.fett:main"
+nbia = "nbia.cli:main"
+nanobody-pipeline = "jango.pipeline.nanobody_pipeline:main"
+decoy-prefold = "jango.pipeline.decoy_prefold:main"
+decoy-fold = "jango.pipeline.decoy_fold:main"
+decoy-analyze = "jango.pipeline.decoy_analyze:main"
+decoy-fold-relax = "jango.pipeline.decoy_fold_relax:main"
+decoy-results = "jango.pipeline.decoy_results:main"
+rosetta-qc = "jango.pipeline.rosetta_qc:main"
+fold-qc = "jango.pipeline.fold_qc:main"
+delphi-prep-sabdab = "jango.preprocessing.sabdab_pdb:main"
+delphi-prep-sabdab2 = "jango.preprocessing.sabdab2_cif:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nbia = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --import-mode=importlib -p no:cacheprovider"

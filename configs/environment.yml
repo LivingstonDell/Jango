@@ -1,0 +1,16 @@
+name: jango
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - biopython
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytest
+  - pip:
+      - -e .

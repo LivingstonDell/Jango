@@ -1,0 +1,33 @@
+case_manifest: results/tables/boltz2_case_manifest.csv
+candidates_per_antigen: 150
+max_decoy_sequences_per_structure: 5
+passing_designs_per_antigen: 5
+sampling_temp: 0.3
+force_contact_mutation: true
+max_sequence_identity: 0.30
+min_contact_mutation_fraction: 0.90
+fold_validation: monomer_sequence_only
+monomer_tm_score_min: 0.90
+monomer_ca_rmsd_max: 2.5
+monomer_aligned_fraction_min: 0.90
+folding:
+  backend: esmfold2
+  boltz2:
+    model: boltz2
+    use_msa_server: true
+    use_potentials: true
+    diffusion_samples: 5
+    recycling_steps: 3
+    output_format: pdb
+    write_full_pae: true
+    write_full_pde: true
+  esmfold2:
+    mode: local
+    model_id_or_path: Biohub/ESMFold2
+    device: cuda
+proteinmpnn:
+  candidates_per_antigen: 150
+  sampling_temp: 0.3
+  omit_native_aa_at_contacts: true
+  designed_chain: A
+notes: Installation-owned canonical antigen redesign policy. Runtime/tool paths are resolved by Fett.
