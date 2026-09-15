@@ -1,6 +1,6 @@
 # Jango
 
-**Note:** This repository was developed during my work at the **Institute for Protein Innovation (IPI)**. The specific execution scripts, Slurm environment configurations, and hardcoded cluster paths reflect internal IPI infrastructure and are no longer actively deployed on a live environment. However, the core algorithmic logic, structural grafting pipelines, evaluation workflows, and orchestration principles remain fully intact and serve as a demonstration of the engineering framework.
+**Note:** This repository was developed during my 3-month Internship at the **Institute for Protein Innovation (IPI)**. The specific execution scripts, Slurm environment configurations, and hardcoded cluster paths reflect internal IPI infrastructure and are no longer actively deployed on a live environment. However, the core algorithmic logic, structural grafting pipelines, evaluation workflows, and orchestration principles remain fully intact and serve as a demonstration of the engineering framework.
 
 ## Scientific Rationale
 
